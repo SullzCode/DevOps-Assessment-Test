@@ -1,10 +1,12 @@
-DevOps Assessment Test
+# DevOps Assessment Test
 
 **Assignment: Setting up GKE and Deploying an Application**
 
 **Objective:**
 
-Your task is to demonstrate your proficiency in DevOps practices by setting up Google Kubernetes Engine (GKE) and deploying an application using Terraform, GitHub Actions, Argocd  and Python.
+Your task is to demonstrate your proficiency in DevOps practices by setting up Google Kubernetes Engine (GKE) and deploying an application using Terraform, GitHub Actions, Argocd,  and Python.
+
+New customers are eligible for $300 in credits from Google Cloud Platform (GCP). You can leverage this credit for the purpose of this assessment.
 
 **Task 1: Infrastructure Provisioning with Terraform**
 
