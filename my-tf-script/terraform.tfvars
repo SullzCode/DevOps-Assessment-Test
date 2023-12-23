@@ -1,5 +1,5 @@
 credentials_file       = "/path/to/your/credentials.json"
-project_id             = "qwiklabs-gcp-01-17f3e4dc6547"
+project_id             = "my project id"
 region                 = "us-west1"
 cluster_name           = "my-gke-cluster"
 network_name           = "gke-network"
