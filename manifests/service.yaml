@@ -1,15 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx
+  name: devops-interview-app
   labels:
-    run: nginx
+    run: devops-interview-app
 spec:
   type: NodePort
   ports:
-  - port: 8080
+  - port: 8000
     targetPort: 80
     protocol: TCP
     name: http
   selector:
-    run: nginx
+    run: devops-interview-app
