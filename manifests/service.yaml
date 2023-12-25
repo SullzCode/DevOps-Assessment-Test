@@ -6,9 +6,13 @@ metadata:
 spec:
   selector:    
     app: devops-interview
-  type: ClusterIP
+  type: LoadBalancer
   ports:  
-  - name: http
-    port: 80
-    targetPort: 80
-    protocol: TCP
+   - protocol: TCP
+    port: 8000
+    targetPort: 8000
+    nodePort: 30000
+    
+    
+
+
