@@ -2,22 +2,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: devops-interview-deployment
 spec:
   replicas: 2
   strategy:
     type: Recreate
   selector:
     matchLabels:
-      app: nginx
+      app: devops-interview
   template:
     metadata:
-      name: nginx-pod
+      name: devops-interview
       labels:
-        app: nginx
+        app: devops-interview
     spec:
       containers:
-      - name: nginx-container
-        image: nginx:1.7.9
+      - name:  devops-interview
+        image: emmylong1/devops-interview:v1
         ports:
         - containerPort: 80
