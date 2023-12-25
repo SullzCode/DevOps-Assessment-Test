@@ -5,11 +5,8 @@ metadata:
   labels:
     app: devops-interview-app
 spec:
-  type: NodePort
   ports:
-  - port: 8000
-    targetPort: 80
-    nodePort: 30002
+  - port: 80
     protocol: TCP
     name: http
   selector:
