@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simple-app-deployment
+  name: devops-interview-app-deployment
   labels:
-    app: simple-app
+    app: devops-interview-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: simeple-app
+      app: devops-interview-app
   template:
     metadata:
       labels:
-        app: simeple-app
+        app: devops-interview-app
     spec:
       containers:
-      - name: simeple-app
-        image: alhusseinjasim/simple-app:9cd3729
+      - name: devops-interview-app
+        image: emmylong1/devops-interview
         ports:
         - containerPort: 80
