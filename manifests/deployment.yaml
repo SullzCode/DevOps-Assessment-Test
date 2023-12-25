@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devops-interview-app
-        image: emmylong1/devops-interview:v1
+        image: nginx
         ports:
         - containerPort: 80
