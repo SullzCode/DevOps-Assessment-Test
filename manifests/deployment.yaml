@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devops-interview-app
-        image: nginx
+        image: nginx:latest
         ports:
         - containerPort: 80
