@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: devops-interview
-        image: emmylong1/devops-interview
+        image: emmylong1/devops-interview:v1
         ports:
         - containerPort: 8000
