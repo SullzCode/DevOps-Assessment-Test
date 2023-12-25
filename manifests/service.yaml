@@ -1,4 +1,4 @@
-# Cluster IP  Service
+# Cluster IP Service
 apiVersion: v1
 kind: Service
 metadata:  
@@ -9,10 +9,6 @@ spec:
   type: LoadBalancer
   ports:  
    - protocol: TCP
-    port: 8000
-    targetPort: 8000
-    nodePort: 30000
-    
-    
-
-
+     port: 8000
+     targetPort: 8000
+     nodePort: 30000
