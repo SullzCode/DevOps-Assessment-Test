@@ -1,0 +1,8 @@
+# chart/templates/deployment.yaml
+...
+    spec:
+      containers:
+        - name: go-server
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}" 
+          ports:
+            - containerPort: 8080
