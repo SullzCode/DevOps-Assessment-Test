@@ -1,8 +1,0 @@
-# chart/templates/deployment.yaml
-...
-    spec:
-      containers:
-        - name: gks-cluster
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}" 
-          ports:
-            - containerPort: 8000
