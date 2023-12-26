@@ -34,9 +34,7 @@ gcloud auth application-default login
 </code>
 
 ### Step 3: Configure Terraform Variables
-### Step 2: Set up Google Cloud Credentials
 Copy terraform.tfvars.example to terraform.tfvars and fill in the required variables.
-
 ### Step 4: Initialize and Apply Terraform Configuration
 <code>
 terraform init
