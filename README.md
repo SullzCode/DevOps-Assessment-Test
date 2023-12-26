@@ -1,6 +1,6 @@
 # DevOps-Assessment-Test
 ## Overview
-This project focuses on setting up infrastructure on Google Kubernetes Engine (GKE) using Terraform, Dockerizing the application, implementing continuous deployment with GitHub Actions and ArgoCD, and pushing the Docker image to Docker Hub.
+This project focuses on setting up infrastructure on Google Kubernetes Engine (GKE) using Terraform, Dockerizing the application, implementing continuous integration and deployment (CI/CD) with GitHub Actions and ArgoCD, and pushing the Docker image to Docker Hub.
 
 ## Table of Contents
 1. Install Required Tools
