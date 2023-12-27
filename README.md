@@ -139,7 +139,11 @@ Click "Add Webhook."
 3. Navigate to the "Settings" tab.
 4. Under "Auto-Sync," enable automatic synchronization.
 5. Configure the desired sync options.
-6. Save the configuration.
+6. Save the configuration
+
+ Once you create this app, Argo CD will be ready to monitor your repo and automatically make changes to the cluster.
+ Let’s see it in action!
+ ![GitHub Logo](C:\Users\DELL\Pictures\Screenshots\Screenshot 2023-12-26 132925.png)
 
 ## For Conclusion
 This [](README.md) is to provide you Guide lines for you to implement infrastructure with Terraform, Dockerized your app, implemented continuous integration and deployment (CI/CD) with GitHub Actions and ArgoCD, and pushed the Docker image to Docker Hub. For details and troubleshooting, refer to documentation and tooling guides. The application will be automatically synced and deployed to the Kubernetes namespace called "prod" whenever changes are pushed to the main branch. 
