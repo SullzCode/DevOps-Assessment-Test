@@ -72,7 +72,7 @@ CMD ["runserver", "0.0.0.0:8000"]
 
 ### Step 2: Build Docker Image
 <code>
-docker build -t <image_name of your choice> .
+docker build -t emmylong1/devops-interview:v1 . <image_name of your choice> .
 </code>
 
 ## Step 3: Verify Docker Image
