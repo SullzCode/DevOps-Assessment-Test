@@ -143,6 +143,8 @@ Click "Add Webhook."
 
  Once you create this app, Argo CD will be ready to monitor your repo and automatically make changes to the cluster.
  Let’s see it in action!
+  <a href="https://medium.com/@emmanuelibok505/github-actions-and-argo-cd-to-establish-a-gitops-workflow-76736e3a9bf2/">medium.</a>
+ 
 
 ## For Conclusion
 This [](README.md) is to provide you Guide lines for you to implement infrastructure with Terraform, Dockerized your app, implemented continuous integration and deployment (CI/CD) with GitHub Actions and ArgoCD, and pushed the Docker image to Docker Hub. For details and troubleshooting, refer to documentation and tooling guides. The application will be automatically synced and deployed to the Kubernetes namespace called "prod" whenever changes are pushed to the main branch. 
