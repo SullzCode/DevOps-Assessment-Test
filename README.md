@@ -23,7 +23,7 @@ No installation required. GitHub Actions is integrated into GitHub repositories.
 Install ArgoCD on GKE by following the instructions <a href="https://argo-cd.readthedocs.io/en/stable/getting_started/">here.</a>
  
  ## Terraform Setup
- ### Step 1: You Cam Clone my Repository
+ ### Step 1: You Can Clone my Repository
  <code>
 https://github.com/Emmylong1/DevOps-Assessment-Test.git
 </code>
