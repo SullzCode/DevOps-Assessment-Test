@@ -7,7 +7,9 @@ spec:
   selector:
     app: devops-interview
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 8000
+   - port: 80
+     targetPort: 8000
+     nodePort: 30001
+     protocol: TCP
   type: NodePort
+
