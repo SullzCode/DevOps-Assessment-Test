@@ -1,12 +1,12 @@
 # DevOps-Assessment-Test
 ## Overview
-This project focuses on setting up infrastructure on Google Kubernetes Engine (GKE) using Terraform, Dockerizing the application, implementing continuous integration and deployment (CI/CD) with GitHub Actions and ArgoCD, and pushing the Docker image to Docker Hub.
+This project is dedicated to provisioning Google Kubernetes Engine (GKE) on the Google Cloud Platform, deploying a Python application using Terraform as Infrastructure as Code (IAC), implementing CI with GitHub Actions, utilizing Python Django for the application, and orchestrating continuous deployment (CD) through ArgoCD.
 
 ## Table of Contents
 1. Install Required Tools
 2. Terraform Setup
 3. Dockerizing the Application
-4. Continuous Deployment
+4. Continuous Deployment 
 5. Configure GitHub Actions for Docker Hub
 
 ## Install Required Tools
