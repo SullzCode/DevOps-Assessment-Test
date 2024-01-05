@@ -28,7 +28,7 @@ terraform {
 }
 
 provider "google" {
-    credentials = file("/home/runner/work/_temp/6d37cf5b-c47d-4516-bd0f-f695010efeeb/")
+    credentials = file("/home/runner/work/_temp/105bf773-f0e2-4d81-a205-59dde38e65c8/terraform-bin plan -input=false -var-file=terraform.tfvars")
     project     = var.project
     region      = var.region
 }
