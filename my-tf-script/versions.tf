@@ -28,7 +28,7 @@ terraform {
 }
 
 provider "google" {
-    credentials = file("/home/emmylong1/.config/gcloud/application_default_credentials.json")
+    credentials = file("/home/runner/work/_temp/6d37cf5b-c47d-4516-bd0f-f695010efeeb/")
     project     = var.project
     region      = var.region
 }
