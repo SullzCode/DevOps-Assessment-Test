@@ -26,5 +26,5 @@ jobs:
 
     - name: Push to Docker Hub
       run: |
-        echo "${{ secrets.DOCKERHUB_SECRET_TOKEN }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
-        docker push emmylong1/devops-interview:v1
+        echo "${{ secrets.DOCKERHUB_SECRET_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+        docker push sullzcode/devops_cicd:v1
