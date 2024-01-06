@@ -20,7 +20,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t emmylong1/devops-interview:v1 .
+        docker build -t sullzcode/devops_cicd:v1 .
       env:
         DOCKER_BUILDKIT: 1
 
